@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rock paper scissors</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <section>
+        <div>
+            <img src="photos/finger.png" class="plyImg" alt="">
+            <h1 id="player-text">player:</h1>
+            <button value="rock" class="player">rock</button>
+            <button value="paper" class="player">paper</button>
+            <button value="scissors" class="player">scissors</button>
+        </div>
+        <div>
+            <img src="photos/robot.png" class="compImg" alt="">
+            <h1 id="computer-text">COMPUTER:</h1>
+        </div>    
+    </section>
+    <div class="game-div">
+        <h2 id="result">ROUND RESULT:</h2>
+        <b>ROUNDS TO PLAY </b><select name="" id="playto">
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </select>
+        <h2>PLAYER SCORE: <span id ="playersco">0</span> || COMPUTER SCORE: <span id="compsscore">0</span></h2>
+        <h2 class="final-result"></h2>
+         <br>
+        <button id="reset">reset</button>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

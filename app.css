@@ -1,0 +1,45 @@
+body{
+    display: flex;
+    justify-content: center; 
+    flex-direction: column;
+    align-items: center; 
+    margin: auto;
+}
+img{
+    height: 400px;
+    width: 400px;
+}
+section{
+    display: flex;
+}
+div{
+    align-items: flex-start;
+}
+button{
+    height:30px;
+    width: 70px;
+    border-radius: 7px;
+    background-color: #0f172a;
+    color: #fff;
+}
+button:disabled{
+    background-color: #64748b;
+}
+@media (max-width:900px ) {
+    img{
+        height: 350px;
+        width: 350px;
+    }
+    h1, h2{
+        font-size: 1em;
+    }
+}
+@media (max-width:750px ) {
+    img{
+        height: 200px;
+        width: 200px;
+    }
+    h1, h2{
+        font-size: 1em;
+    }
+}
